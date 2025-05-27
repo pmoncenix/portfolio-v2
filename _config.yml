@@ -50,7 +50,7 @@ address:
   - line: 38570, Theys
 
 # Credits content
-credits: 'Blackrock Digital LLC, LitoMore, Paul Moncenix-Larue'
+credits: 'Blackrock Digital LLC, LitoMore, <br> Paul Moncenix-Larue'
 
 # Build settings
 markdown: kramdown
