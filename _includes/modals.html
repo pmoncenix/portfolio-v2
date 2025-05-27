@@ -15,9 +15,32 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+            {% if post.images %}
+            <div id="carousel-{{ post.modal-id }}" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Slides -->
+              <div class="carousel-inner">
+                {% for image in post.images %}
+                <div class="item{% if forloop.first %} active{% endif %}">
+                  <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="Slide {{ forloop.index }}">
+                </div>
+                {% endfor %}
+              </div>
+
+              <!-- Contrôles -->
+              <a class="left carousel-control" href="#carousel-{{ post.modal-id }}" data-slide="prev">
+                <i class="fa fa-chevron-left fa-2x"></i>
+              </a>
+              <a class="right carousel-control" href="#carousel-{{ post.modal-id }}" data-slide="next">
+                <i class="fa fa-chevron-right fa-2x"></i>
+              </a>
+
+            </div>
+            {% endif %}
+
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <h3>Description</h3>
+            <p style="text-align: justify">{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
@@ -35,9 +58,36 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
+
+              {% if post.technologies %}
+                <h3>Technologies utilisées</h3>
+                <ul class="tech-list">
+                  {% for tech in post.technologies %}
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/{{ tech.name }}" alt="{{ tech.name }} logo" class="tech-logo" />
+                      <span class="tech-name">{{ tech.name }}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
+              {% if post.ressources %}
+              <h3>Ressources</h3>
+              <ul class="list-unstyled">
+                {% for block in post.ressources %}
+                  {% for res in block.entry %}
+                    <li>
+                      <a href="{{ res.link }}" target="_blank" rel="noopener">
+                        {{ res.name }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+              Fermer</button>
           </div>
         </div>
       </div>
