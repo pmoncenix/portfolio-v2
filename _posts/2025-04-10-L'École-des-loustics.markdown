@@ -2,7 +2,7 @@
 layout: default
 modal-id: 5
 date: 2025-04-10
-img: loustics.png
+img: loustics0.png
 alt: image-alt
 project-date: Avril 2025
 client: Projet scolaire BUT2 Informatique
