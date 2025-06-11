@@ -9,7 +9,7 @@ client: IVèS France
 category: Développement Logiciel
 images:
     - drawio2dns1.png
-    - drawio2dns3.png
+    - drawio2dns2.png
     - drawio2dns4.png
 description: Ce projet de stage chez IVèS France consistait à concevoir et réaliser un outil innovant de configuration et visualisation automatique des zones DNS à partir d'un schéma visuel réalisé sur Draw.io. Cet outil permet d'importer facilement un diagramme Draw.io décrivant les différentes zones DNS et de générer automatiquement les fichiers de configuration conformes aux normes RFC1035, directement exploitables par des fournisseurs DNS comme OVH ou Cloudflare. <br><br> L'objectif était d'automatiser et de simplifier considérablement la gestion et la maintenance de plus de 1500 entrées DNS réparties sur plusieurs environnements de développement, préproduction et production, en facilitant également la détection des erreurs.
 objectifs:
