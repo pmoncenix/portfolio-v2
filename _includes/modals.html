@@ -42,6 +42,51 @@
             <h3>Description</h3>
             <p style="text-align: justify">{{ post.description }}</p>
             {% endif %}
+
+              {% if post.objectifs %}
+                <h3>Objectifs</h3>
+                <ul>
+                  {% for objectif in post.objectifs %}
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">{{ objectif.objectif }}</p>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
+              {% if post.groupe %}
+                <h3>Travail de groupe</h3>
+                <ul>
+                  {% for travail in post.groupe %}
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">{{ travail.travail }}</p>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
+              {% if post.individuel %}
+                <h3>Travail individuel</h3>
+                <ul>
+                  {% for travail in post.individuel %}
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">{{ travail.travail }}</p>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
+              {% if post.competences %}
+                <h3>Techniques et savoirs faire</h3>
+                <ul>
+                  {% for competence in post.competences %}
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">{{ competence.competence }}</p>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
