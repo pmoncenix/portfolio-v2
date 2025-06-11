@@ -1,0 +1,37 @@
+---
+layout: default
+modal-id: 6
+date: 2025-06-10
+img: drawio2dns.png
+alt: image-alt
+project-date: Avril - Juin 2025
+client: IVèS France
+category: Développement Logiciel
+images:
+    - drawio2dns1.png
+    - drawio2dns3.png
+    - drawio2dns4.png
+description: Ce projet de stage chez IVèS France consistait à concevoir et réaliser un outil innovant de configuration et visualisation automatique des zones DNS à partir d'un schéma visuel réalisé sur Draw.io. Cet outil permet d'importer facilement un diagramme Draw.io décrivant les différentes zones DNS et de générer automatiquement les fichiers de configuration conformes aux normes RFC1035, directement exploitables par des fournisseurs DNS comme OVH ou Cloudflare. <br><br> L'objectif était d'automatiser et de simplifier considérablement la gestion et la maintenance de plus de 1500 entrées DNS réparties sur plusieurs environnements de développement, préproduction et production, en facilitant également la détection des erreurs.
+objectifs:
+    - objectif: Automatiser la génération des fichiers de configuration DNS à partir de diagrammes Draw.io
+    - objectif: Standardiser et simplifier la gestion des zones DNS complexes
+    - objectif: Proposer une solution robuste, testée, documentée et facile à utiliser pour les équipes techniques
+individuel:
+    - travail: Réalisation complète de toutes les étapes du projet, de la conception initiale à la livraison finale
+    - travail: Développement intégral du logiciel en Python, incluant le parsing XML avancé
+    - travail: Conception des modèles UML et rédaction complète de la documentation technique
+    - travail: Mise en place des tests unitaires et validation du logiciel par SonarQube
+    - travail: Packaging final du logiciel via Docker et rédaction du guide utilisateur complet
+competences:
+    - competence: Expertise dans le développement Python, notamment en parsing XML et gestion avancée des fichiers
+    - competence: Maîtrise des normes RFC1035 et bonnes pratiques DNS
+    - competence: Utilisation avancée d’outils tels que SonarQube, pytest, Docker, et PlantUML
+    - competence: Forte autonomie dans la gestion de projet individuel avec une approche Agile adaptée au contexte professionnel
+    - competence: Capacité à documenter efficacement un projet technique complexe
+technologies:
+    - name: "Python"
+    - name: "Docker"
+    - name: "pytest"
+    - name: "UML"
+    - name: "GitLab"
+---
