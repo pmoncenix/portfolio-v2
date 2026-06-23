@@ -1,0 +1,30 @@
+---
+layout: default
+modal-id: 7
+date: 2025-09-08
+img: gamejam.png
+alt: Illustration du projet Game Jam 2025
+project-date: Septembre 2025
+client: Projet scolaire BUT3 Informatique
+category: Développement de jeu vidéo
+images:
+  - gamejam1.png
+description: La Game Jam 2025 était un défi intensif de trois jours et deux nuits consacré à la conception, à la réalisation et à la présentation d'un jeu vidéo original. Répartis en équipes de quatre ou cinq étudiants, nous devions imaginer un jeu respectant le thème « Moyen Âge – Apparaître / Disparaître », puis en développer l'intégralité avec Python 3 et Pygame dans le temps imparti. <br><br> Le projet associait créativité, programmation et gestion de projet. Le jeu devait fonctionner sous Linux et être accompagné d'une jaquette, d'une section de crédits et d'un support de présentation destiné au jury. Cette expérience a demandé de prendre rapidement des décisions de conception, de répartir les rôles selon les compétences de chacun et de tester régulièrement le jeu afin de garantir une version jouable pour les qualifications.
+objectifs:
+  - objectif: Concevoir et développer un jeu vidéo original en un temps très limité
+  - objectif: Répondre au thème imposé « Moyen Âge – Apparaître / Disparaître » par des mécaniques de jeu cohérentes
+  - objectif: Livrer une version stable, exécutable sous Linux et présentable devant un jury
+groupe:
+  - travail: Organisation d'une équipe de quatre à cinq étudiants avec répartition des rôles de conception, développement, design et présentation
+  - travail: Arbitrage collectif des fonctionnalités selon leur importance et le temps restant
+individuel:
+  - travail: Participation à la conception des mécaniques et à leur implémentation avec Python et Pygame
+  - travail: Tests réguliers du jeu, correction des problèmes rencontrés et préparation de la démonstration finale
+competences:
+  - competence: Développement d'un jeu 2D avec Python et Pygame
+  - competence: Prototypage rapide et adaptation du périmètre aux contraintes de temps
+  - competence: Travail en équipe sous forte contrainte et présentation d'une réalisation technique
+technologies:
+  - name: "Python"
+  - name: "Git"
+---
