@@ -102,6 +102,50 @@
     <div class="portfolio-flex-row">
       
       <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-10" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/mango.png" class="img-responsive" alt="Interface de combat du projet Arènes du Mordor">
+        </a>
+      </div>
+      
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-9" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/cs2api.png" class="img-responsive" alt="Documentation OpenAPI de l'API eSport CS2">
+        </a>
+      </div>
+      
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-8" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/angular.png" class="img-responsive" alt="Capture de l'application Angular Tour of Heroes">
+        </a>
+      </div>
+      
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-7" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/gamejam.png" class="img-responsive" alt="Illustration du projet Game Jam 2025">
+        </a>
+      </div>
+      
+      <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
@@ -312,6 +356,661 @@
 </div>
 
   <!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal-10" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Arènes Du Mordor</h2>
+            <hr class="star-primary">
+
+            
+            <div id="carousel-10" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Slides -->
+              <div class="carousel-inner">
+                
+                <div class="item active">
+                  <img src="img/portfolio/mango1.png" class="img-responsive img-centered" alt="Slide 1">
+                </div>
+                
+                <div class="item">
+                  <img src="img/portfolio/mango2.png" class="img-responsive img-centered" alt="Slide 2">
+                </div>
+                
+              </div>
+
+              <!-- Contrôles -->
+              <a class="left carousel-control" href="#carousel-10" data-slide="prev">
+                <i class="fa fa-chevron-left fa-2x"></i>
+              </a>
+              <a class="right carousel-control" href="#carousel-10" data-slide="next">
+                <i class="fa fa-chevron-right fa-2x"></i>
+              </a>
+
+            </div>
+            
+
+            
+            <h3>Description</h3>
+            <p style="text-align: justify">Arènes du Mordor est une application Angular réalisée individuellement dans le cadre du projet M.A.N.G.O. Elle reprend le principe de Tour of Heroes pour proposer une gestion complète de héros et d'armes. L'utilisateur peut créer, modifier, supprimer, filtrer et trier les deux types de ressources. Chaque héros dispose d'un budget de caractéristiques à répartir, tandis que les armes appliquent des bonus et des malus dont la somme doit rester équilibrée. <br><br> Les règles métier empêchent notamment d'équiper une arme qui ferait descendre une caractéristique sous son minimum. Les données sont persistées à distance dans Firebase Firestore et chaque action importante est signalée dans l'interface. En complément des fonctionnalités CRUD, une arène permet de sélectionner deux héros, de prendre en compte leurs armes et de simuler un combat tour par tour jusqu'à la victoire de l'un des participants.</p>
+            
+
+              
+                <h3>Objectifs</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développer une application Angular complète autour de ressources liées et de règles métier</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Assurer la persistance distante des héros et des armes avec Firebase Firestore</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Proposer une interface de gestion ergonomique avec recherche, tri, validation et retours utilisateur</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Ajouter une simulation de combat exploitant les caractéristiques cumulées des héros et de leurs armes</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+
+              
+                <h3>Travail individuel</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Conception et réalisation de l'ensemble de l'application, du modèle de données à l'interface</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développement des opérations CRUD et des formulaires validant les règles d'équilibrage</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Intégration de Firebase Firestore dans les services Angular pour la persistance distante</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Implémentation du moteur de combat tour par tour et de son journal détaillé</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Techniques et savoirs faire</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développement avancé avec Angular, TypeScript, composants autonomes et formulaires</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Modélisation et validation de règles métier portant sur des objets liés</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Intégration d'une base de données distante avec Firebase Firestore</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Conception d'une interface responsive proposant tri, filtres et retours d'action</p>
+                    </li>
+                  
+                </ul>
+              
+
+            <ul class="list-inline item-details">
+              
+              <li>Client:
+                <strong>Projet scolaire BUT3 Informatique</strong>
+              </li>
+              
+              
+              <li>Date:
+                <strong>Janvier 2026</strong>
+              </li>
+              
+              
+              <li>Service:
+                <strong>Développement Web</strong>
+              </li>
+              
+
+              
+                <h3>Technologies utilisées</h3>
+                <ul class="tech-list">
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Angular" alt="Angular logo" class="tech-logo" />
+                      <span class="tech-name">Angular</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/TypeScript" alt="TypeScript logo" class="tech-logo" />
+                      <span class="tech-name">TypeScript</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Firebase" alt="Firebase logo" class="tech-logo" />
+                      <span class="tech-name">Firebase</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Git" alt="Git logo" class="tech-logo" />
+                      <span class="tech-name">Git</span>
+                    </li>
+                  
+                </ul>
+              
+
+              
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-9" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Api Esport Cs2</h2>
+            <hr class="star-primary">
+
+            
+            <div id="carousel-9" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Slides -->
+              <div class="carousel-inner">
+                
+                <div class="item active">
+                  <img src="img/portfolio/cs2api1.png" class="img-responsive img-centered" alt="Slide 1">
+                </div>
+                
+              </div>
+
+              <!-- Contrôles -->
+              <a class="left carousel-control" href="#carousel-9" data-slide="prev">
+                <i class="fa fa-chevron-left fa-2x"></i>
+              </a>
+              <a class="right carousel-control" href="#carousel-9" data-slide="next">
+                <i class="fa fa-chevron-right fa-2x"></i>
+              </a>
+
+            </div>
+            
+
+            
+            <h3>Description</h3>
+            <p style="text-align: justify">API eSport CS2 est une API REST développée avec Node.js pour gérer les données d'un écosystème compétitif Counter-Strike 2. Le modèle couvre les tournois, les équipes, les joueurs, les matchs et les cartes, ainsi que leurs relations. Chaque ressource dispose d'opérations de consultation, création, modification et suppression, complétées par des routes dédiées comme la composition d'une équipe ou les matchs associés à un tournoi. <br><br> Le projet a été mené avec une approche « API first ». J'ai d'abord décrit les ressources, les schémas, les paramètres, les réponses et les codes HTTP dans une spécification OpenAPI 3.0, puis généré et complété le squelette du serveur avec oas3-tools. Les données de démonstration sont chargées depuis des fichiers JSON et les modifications y sont persistées. Une documentation interactive Swagger UI permet enfin de découvrir et de tester les différents endpoints.</p>
+            
+
+              
+                <h3>Objectifs</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Concevoir une API REST cohérente pour un domaine comportant plusieurs ressources liées</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Formaliser le contrat de l'API avec une spécification OpenAPI complète</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Implémenter les opérations CRUD, la pagination et une gestion adaptée des réponses HTTP</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+
+              
+                <h3>Travail individuel</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Modélisation des tournois, équipes, joueurs, matchs et cartes CS2</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Rédaction de la spécification OpenAPI et génération du squelette du serveur</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Implémentation des contrôleurs, services et règles de persistance dans les fichiers JSON</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Création d'un client de démonstration pour vérifier les principaux scénarios CRUD</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Techniques et savoirs faire</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Conception et développement d'une API REST avec Node.js</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Documentation d'un contrat d'API avec OpenAPI et Swagger UI</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Gestion des codes HTTP, de la pagination et des relations entre ressources</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Structuration d'une application serveur en contrôleurs, services et couche de données</p>
+                    </li>
+                  
+                </ul>
+              
+
+            <ul class="list-inline item-details">
+              
+              <li>Client:
+                <strong>Projet scolaire BUT3 Informatique</strong>
+              </li>
+              
+              
+              <li>Date:
+                <strong>Automne 2025</strong>
+              </li>
+              
+              
+              <li>Service:
+                <strong>Développement Web/API</strong>
+              </li>
+              
+
+              
+                <h3>Technologies utilisées</h3>
+                <ul class="tech-list">
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Node.js" alt="Node.js logo" class="tech-logo" />
+                      <span class="tech-name">Node.js</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Swagger" alt="Swagger logo" class="tech-logo" />
+                      <span class="tech-name">Swagger</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/JSON" alt="JSON logo" class="tech-logo" />
+                      <span class="tech-name">JSON</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Git" alt="Git logo" class="tech-logo" />
+                      <span class="tech-name">Git</span>
+                    </li>
+                  
+                </ul>
+              
+
+              
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-8" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Tour Of Heroes</h2>
+            <hr class="star-primary">
+
+            
+            <div id="carousel-8" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Slides -->
+              <div class="carousel-inner">
+                
+                <div class="item active">
+                  <img src="img/portfolio/angular1.png" class="img-responsive img-centered" alt="Slide 1">
+                </div>
+                
+              </div>
+
+              <!-- Contrôles -->
+              <a class="left carousel-control" href="#carousel-8" data-slide="prev">
+                <i class="fa fa-chevron-left fa-2x"></i>
+              </a>
+              <a class="right carousel-control" href="#carousel-8" data-slide="next">
+                <i class="fa fa-chevron-right fa-2x"></i>
+              </a>
+
+            </div>
+            
+
+            
+            <h3>Description</h3>
+            <p style="text-align: justify">Tour of Heroes est une application web réalisée pour découvrir les fondamentaux d'Angular à travers la gestion d'une équipe de héros. L'application propose un tableau de bord mettant en avant les héros principaux, une liste complète et une page de détail accessible par une route paramétrée. Son interface sombre et responsive repose sur des composants autonomes et réutilisables. <br><br> Ce projet m'a permis de mettre en pratique le data binding, les directives de template, les relations entre composants, l'injection de dépendances et le routage. L'accès aux données est isolé dans un service et utilise les Observable de RxJS afin de reproduire le fonctionnement asynchrone d'une application connectée à un serveur. Un service de messages complète l'ensemble pour rendre les actions visibles dans l'interface.</p>
+            
+
+              
+                <h3>Objectifs</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Prendre en main l'architecture par composants d'Angular</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Mettre en place une navigation entre un dashboard, une liste et des fiches détaillées</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Séparer l'affichage et l'accès aux données grâce aux services et à l'injection de dépendances</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+
+              
+                <h3>Travail individuel</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Création et organisation des composants autonomes de l'application</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Configuration des routes, dont une route paramétrée pour les fiches de héros</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développement des services de données et de messages avec RxJS</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Réalisation complète de l'interface et de son thème visuel responsive</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Techniques et savoirs faire</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développement d'une Single Page Application avec Angular et TypeScript</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Maîtrise du data binding, des directives et du cycle de vie des composants</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Utilisation du routage, des services injectables et des Observable RxJS</p>
+                    </li>
+                  
+                </ul>
+              
+
+            <ul class="list-inline item-details">
+              
+              <li>Client:
+                <strong>Projet scolaire BUT3 Informatique</strong>
+              </li>
+              
+              
+              <li>Date:
+                <strong>Septembre 2025</strong>
+              </li>
+              
+              
+              <li>Service:
+                <strong>Développement Web</strong>
+              </li>
+              
+
+              
+                <h3>Technologies utilisées</h3>
+                <ul class="tech-list">
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Angular" alt="Angular logo" class="tech-logo" />
+                      <span class="tech-name">Angular</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/TypeScript" alt="TypeScript logo" class="tech-logo" />
+                      <span class="tech-name">TypeScript</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/RxJS" alt="RxJS logo" class="tech-logo" />
+                      <span class="tech-name">RxJS</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Git" alt="Git logo" class="tech-logo" />
+                      <span class="tech-name">Git</span>
+                    </li>
+                  
+                </ul>
+              
+
+              
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-7" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Game Jam 2025</h2>
+            <hr class="star-primary">
+
+            
+            <div id="carousel-7" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Slides -->
+              <div class="carousel-inner">
+                
+                <div class="item active">
+                  <img src="img/portfolio/gamejam1.png" class="img-responsive img-centered" alt="Slide 1">
+                </div>
+                
+              </div>
+
+              <!-- Contrôles -->
+              <a class="left carousel-control" href="#carousel-7" data-slide="prev">
+                <i class="fa fa-chevron-left fa-2x"></i>
+              </a>
+              <a class="right carousel-control" href="#carousel-7" data-slide="next">
+                <i class="fa fa-chevron-right fa-2x"></i>
+              </a>
+
+            </div>
+            
+
+            
+            <h3>Description</h3>
+            <p style="text-align: justify">La Game Jam 2025 était un défi intensif de trois jours et deux nuits consacré à la conception, à la réalisation et à la présentation d'un jeu vidéo original. Répartis en équipes de quatre ou cinq étudiants, nous devions imaginer un jeu respectant le thème « Moyen Âge – Apparaître / Disparaître », puis en développer l'intégralité avec Python 3 et Pygame dans le temps imparti. <br><br> Le projet associait créativité, programmation et gestion de projet. Le jeu devait fonctionner sous Linux et être accompagné d'une jaquette, d'une section de crédits et d'un support de présentation destiné au jury. Cette expérience a demandé de prendre rapidement des décisions de conception, de répartir les rôles selon les compétences de chacun et de tester régulièrement le jeu afin de garantir une version jouable pour les qualifications.</p>
+            
+
+              
+                <h3>Objectifs</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Concevoir et développer un jeu vidéo original en un temps très limité</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Répondre au thème imposé « Moyen Âge – Apparaître / Disparaître » par des mécaniques de jeu cohérentes</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Livrer une version stable, exécutable sous Linux et présentable devant un jury</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Travail de groupe</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Organisation d'une équipe de quatre à cinq étudiants avec répartition des rôles de conception, développement, design et présentation</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Arbitrage collectif des fonctionnalités selon leur importance et le temps restant</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Travail individuel</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Participation à la conception des mécaniques et à leur implémentation avec Python et Pygame</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Tests réguliers du jeu, correction des problèmes rencontrés et préparation de la démonstration finale</p>
+                    </li>
+                  
+                </ul>
+              
+
+              
+                <h3>Techniques et savoirs faire</h3>
+                <ul>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Développement d'un jeu 2D avec Python et Pygame</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Prototypage rapide et adaptation du périmètre aux contraintes de temps</p>
+                    </li>
+                  
+                    <li style="text-align: justify;">
+                        <p style="text-align: justify">Travail en équipe sous forte contrainte et présentation d'une réalisation technique</p>
+                    </li>
+                  
+                </ul>
+              
+
+            <ul class="list-inline item-details">
+              
+              <li>Client:
+                <strong>Projet scolaire BUT3 Informatique</strong>
+              </li>
+              
+              
+              <li>Date:
+                <strong>Septembre 2025</strong>
+              </li>
+              
+              
+              <li>Service:
+                <strong>Développement de jeu vidéo</strong>
+              </li>
+              
+
+              
+                <h3>Technologies utilisées</h3>
+                <ul class="tech-list">
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Python" alt="Python logo" class="tech-logo" />
+                      <span class="tech-name">Python</span>
+                    </li>
+                  
+                    <li class="tech-item">
+                      <img src="https://cdn.simpleicons.org/Git" alt="Git logo" class="tech-logo" />
+                      <span class="tech-name">Git</span>
+                    </li>
+                  
+                </ul>
+              
+
+              
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog"
   aria-hidden="true">
